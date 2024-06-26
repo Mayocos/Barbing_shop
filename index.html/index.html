@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/dcd49b6433.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+    <nav>
+        <a href="/Home"></a>
+        <a href="#section-2">Hairstyle</a>
+        <a href="#section-3">Pricing</a>
+            <a href="#section-4">Media</a>
+                <a href="#section-5">About us</a>
+                    <a href="#section-6">Contact us</a>
+    </nav>
     <!-- Hero -->
-    <section>
-        <h1>welcome to Opeyemi Barbing saloon</h1>
-        <img src="./image/logo.png" alt="">
-        <h2>more than just a haircut, we're your partners to crafting look that reflects your unique personality</h2>
-        <img src="./image/barbing.jpeg" alt="">
+    <section id="section-1">
+        <h1>welcome To MAYOCOS Barbing Saloon</h1>
+        <img src="./image/logo.png" alt="profile image" >
+        <a href="https://YouTube.com/@Unclebigbay" target="_blank" rel="noreferrer noopener">Click me</a>
+        <h2>More than just a haircut, we're your partners to crafting look that reflects your unique personality</h2>
+        <img src="./image/barbing.jpeg" alt="profile image" width="600">
+        <a href="https://YouTube.com/@Unclebigbay" target="_blank" rel="noreferrer noopener">Click me</a>
     </section>
     <!-- Hairstyle -->
-    <section>
+    <section id="section-2">
         <h2>Hiarstyles You To Try In 2024</h2>
         <ul>
             <li>
@@ -29,8 +38,8 @@
         </ul>
     </section>
     <!-- Pricing -->
-    <section>
-        <h2>Pricing</h2>
+    <section id="section-3">
+        <h2 title="This is the price list">Pricing</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -59,18 +68,18 @@
         </table>
     </section>
     <!-- Media -->
-    <section>
+    <section id="section-4">
         <h2>Have fun while we make you beautiful</h2>
-        <audio controls>
+        <audio controls title="click here">
             <source src="./image/audio.ogg">
         </audio>
         <h4>watch movies</h4>
-        <video controls>
+        <video controls title="click here">
             <source src="./image/video.mp4">
         </video>
     </section>
     <!-- About us -->
-    <section>
+    <section id="section-5">
         <h2>About us</h2>
         <p> We're not just cutting hair, we're building legacies. Since 2022, we've been a cornerstone of the community,
             crafting
@@ -85,24 +94,32 @@
             great haircut can do.</p>
     </section>
     <!-- Contact us -->
-    <section>
-        <h2>Contact us</h2>
+    <section id="section-6 ">
+        <h2 title="How you can reach us">Contact us</h2>
         <h3>Don't wait another minute, walk in for a walk-in or schedule transformation online.</h3>
     </section>
     <form action="">
-        <label for="">Name</label>
-  <input type="text">
+        <label for="name" title="kindly input your full name">Name</label>
+<input type="text" id="name">
         <br>
         <br>
-        <label for="user" title="to focus on the input"> Address</label>
-        <input type="text" id="user" >
+        <label for="email" title="kindly input yuor email address">Email</label>
+        <input type="email" id="email" >
         <br>
         <br>
-        <label for="">Other Details</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label for="">Gender</label> <br>
+        <label for="">Male</label>
+        <input type="radio" name="name" id="">
+        <label for="">Female</label>
+        <input type="radio" name="name" id="">
         <br>
         <br>
-        <button>Submit</button>
+
+        <label for="textarea" title="Tell us more about you">Other Details</label>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button title="Kindly submit your form">Submit</button>
     </form>
     <h3>OR</h3>
     <p>Chat with us on X [Twitter] <a href="https://X.com/@Mayowaseun4">mayocos</a></p>
